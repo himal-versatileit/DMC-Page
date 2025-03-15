@@ -1,0 +1,52 @@
+.place-card .card-img-top {
+    width: 100%;
+    height: 300px;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+// .place-card:hover img {
+//     transform: translateY(-5px);
+//     transition: transform 0.5s ease;
+// }
+
+
+// .place-card .place-content {
+//     display: none;
+//     opacity: 1;
+// }
+
+// .place-card:hover .place-content {
+//     display: block;
+//     opacity: 1;
+//     transition: 0.3s ease-in-out;
+// }
+
+
+
+.place-card:hover .place-content h5 {
+    opacity: 1;
+    color: #0A5;
+    transition: 0.3s ease-in-out;
+}
+
+
+// .place-card .place-content {
+//     opacity: 0;
+//     transition: opacity 0.3s ease-in-out;
+//     // position: inherit;
+// }
+
+.fw-normal {
+
+    font-size: 14px;
+    line-height: 1.2em;
+    font-weight: normal;
+    margin: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+}

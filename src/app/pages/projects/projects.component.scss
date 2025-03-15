@@ -1,0 +1,59 @@
+// .card {
+//     transition: transform 0.3s ease, box-shadow 0.3s ease;
+// }
+
+// .card .card-body {
+//     background: linear-gradient(134deg, #F8EFF8 1.26%, #F8EFF8 91.21%);
+// }
+
+
+
+.card:hover .card-body {
+    background: white;
+}
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover .card-title {
+    color: #340793;
+    font-size: 17px;
+    box-shadow: #007bff;
+}
+
+.card-title {
+    line-height: normal;
+    font-weight: 700;
+}
+
+// .card-title {
+//     color: #333;
+//     font-family: Montserrat;
+//     font-size: 10px;
+//     font-style: normal;
+//     font-weight: 600;
+//     line-height: 19.2px;
+//     text-transform: uppercase;
+//     height: 40px;
+//     /* 20px line-height * 2 lines */
+//     overflow: hidden;
+//     display: block;
+
+// }
+
+// .card-text {
+//     font-size: 14px;
+//     /* Adjust the font size as needed */
+//     line-height: 1.2em;
+//     /* Adjust the line height as needed */
+//     font-weight: normal;
+//     margin: 0;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//     display: -webkit-box;
+//     -webkit-line-clamp: 3;
+//     /* Limit to 3 lines */
+//     -webkit-box-orient: vertical;
+// }

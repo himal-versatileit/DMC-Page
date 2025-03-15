@@ -1,0 +1,157 @@
+body.zoomin {
+    font-size: large;
+}
+
+body.normal {
+    font-size: medium;
+}
+
+body.zoomout {
+    font-size: small;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+a:hover {
+    color: #6062ad;
+}
+
+.btn-primary {
+    color: white !important;
+}
+
+body.dark-mode {
+    background-color: #252525 !important;
+    color: yellow;
+}
+
+.dark-mode .container {
+    background-color: #252525 !important;
+    color: yellow !important;
+}
+
+.dark-mode .bgcolor {
+    background-color: #252525 !important;
+    color: yellow;
+}
+
+.dark-mode .box {
+    background-color: #252525 !important;
+    color: yellow;
+}
+
+.dark-mode .s-bg {
+    background-color: #252525 !important;
+    color: yellow;
+}
+
+.dark-mode .col-12 {
+    background-color: #252525 !important;
+    color: yellow;
+}
+
+.dark-mode .footerimg {
+    mix-blend-mode: lighten !important;
+}
+
+.dark-mode .bg-img {
+    background-color: #252525 !important;
+    color: yellow;
+}
+
+.dark-mode .row {
+    background-color: #252525 !important;
+    color: yellow;
+}
+
+.dark-mode .alerts {
+    background-color: #252525 !important;
+    color: white;
+}
+
+.dark-mode .alerts .message {
+    color: white;
+}
+
+.dark-mode .back {
+    background-color: #252525 !important;
+    color: yellow;
+}
+
+.dark-mode .navbar,
+.dark-mode .nav-links a {
+    background-color: #252525 !important;
+    color: yellow !important;
+}
+
+.dark-mode .dropdown,
+.dark-mode .dropdown li {
+    background-color: #252525 !important;
+    color: yellow !important;
+}
+
+.dark-mode .dropdown li:hover {
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.dark-mode .services,
+.dark-mode .services li {
+    background-color: #252525 !important;
+    color: yellow !important;
+}
+
+.dark-mode .card-body {
+    background-color: #252525 !important;
+    color: yellow !important;
+}
+
+.dark-mode .toggle {
+    color: yellow !important;
+}
+
+.dark-mode .services:hover {
+    background-color: #fff;
+    color: #252525;
+}
+
+.dark-mode .card-inner {
+    background-color: #252525 !important;
+    color: yellow !important;
+}
+
+.dark-mode .card-back {
+    background-color: #252525 !important;
+    color: yellow !important;
+}
+
+body.zoomin {
+    font-size: large;
+}
+
+body.normal {
+    font-size: medium;
+}
+
+body.zoomout {
+    font-size: small;
+}
+
+.text-common{
+    text-align: justify;
+}
